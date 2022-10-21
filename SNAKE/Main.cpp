@@ -1,10 +1,17 @@
 #include "raylib.h"
+#include "./projects/VS2017/examples/Apple.h"
+#include "./projects/VS2017/examples/Snake.h"
+#include "./projects/VS2017/examples/Collisions.h"
 #include <string>
 
 using namespace std;
 
+void Update();
+void Draw();
+Vector2 RandomPos();
+
 Texture2D m_wallTexture;
-Texture2D m_appleTexture;
+Apple m_apple;
 
 const int SCREEN_WIDTH = 800;
 const int SCREEN_HEIGHT = 600;
@@ -15,13 +22,8 @@ int main(int argc, char* argv[])
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "SNAKE GAME");
     SetTargetFPS(60);
 
-    //image = LoadImage("C:/Users/cpaya/Documents/ArtFx/RayLib/BasicInteraction_RaylibVSCommunity/resources/wall.png");
-    //m_wallTexture = LoadTextureFromImage(image);
-    //UnloadImage(image);
-
-    //image = LoadImage("C:/Users/cpaya/Documents/ArtFx/RayLib/BasicInteraction_RaylibVSCommunity/resources/apple.png");
-    //m_appleTexture = LoadTextureFromImage(image);
-    //UnloadImage(image);
+    Vector2 randomPos = RandomPos();
+    m_apple = Apple(randomPos.x, randomPos.y, 32);
 
 #ifndef Walls
     m_wallTexture = LoadTexture("C:/Users/cpaya/Documents/ArtFx/Raylib/Snake/resources/wall.png");
@@ -33,14 +35,6 @@ int main(int argc, char* argv[])
     Rectangle m_wallRectangle = { 0, 0, m_wallTexture.width, m_wallTexture.height };
     Vector2 m_wallCenter = { m_wallTexture.width / (2 * divideTexture), m_wallTexture.height / (2 * divideTexture) };
 #endif // !Walls
-
-#ifndef Apple
-    m_appleTexture = LoadTexture("C:/Users/cpaya/Documents/ArtFx/Raylib/Snake/resources/apple.png");
-
-    int multiplyTexture = 2;
-    Rectangle m_appleRectangle = { 0, 0, m_appleTexture.width, m_appleTexture.height };
-    Vector2 m_appleCenter = { m_appleTexture.width / (2 / multiplyTexture), m_appleTexture.height / (2 / multiplyTexture) };
-#endif // !Apple
 
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
@@ -103,17 +97,7 @@ int main(int argc, char* argv[])
                 WHITE);
         }
 
-        //DRAW THE APPLE ?
-        Rectangle m_applePos = { SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, (m_appleRectangle.width * multiplyTexture), (m_appleRectangle.height * multiplyTexture) };
-
-        DrawTexturePro(
-            m_appleTexture,
-            m_appleRectangle,
-            m_applePos,
-            m_appleCenter,
-            0,
-            WHITE);
-
+        Draw();
 
         EndDrawing();
     }
@@ -127,3 +111,22 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+void Update()
+{
+
+}
+
+void Draw()
+{
+    m_apple.Draw();
+}
+
+Vector2 RandomPos()
+{
+    int x = GetRandomValue(16, 750);
+    int y = GetRandomValue(16, 350);
+    Vector2 newPos = { x, y };
+    return newPos;
+}
+

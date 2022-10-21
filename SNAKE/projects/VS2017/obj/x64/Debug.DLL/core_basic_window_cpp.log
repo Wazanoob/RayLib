@@ -1,35 +1,33 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (raylib.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
   Main.cpp
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(33,54): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(33,54): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(33,75): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(33,75): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,50): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,50): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,94): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,94): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(41,56): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(41,56): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(41,78): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(41,78): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(42,52): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(42,52): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(42,99): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(42,99): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(58,40): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(58,40): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(58,66): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(58,66): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(69,46): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(69,46): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(69,71): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(69,71): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(83,53): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(83,53): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(83,83): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(83,83): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(94,52): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(94,52): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(94,106): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
-C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(94,106): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(25,43): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(25,30): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,54): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,54): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,75): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(34,75): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(35,50): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(35,50): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(35,94): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(35,94): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(51,40): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(51,40): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(51,66): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(51,66): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(62,46): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(62,46): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(62,71): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(62,71): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(76,53): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(76,53): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(76,83): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(76,83): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(87,52): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(87,52): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(87,106): warning C4838: la conversion de 'size_t' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(87,106): warning C4244: 'initialisation' : conversion de 'size_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(128,24): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(128,24): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(128,27): warning C4838: la conversion de 'int' en 'float' requiert une conversion restrictive
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\Main.cpp(128,27): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
   core_basic_window_cpp.vcxproj -> C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\bin\x64\Debug.DLL\Game.exe

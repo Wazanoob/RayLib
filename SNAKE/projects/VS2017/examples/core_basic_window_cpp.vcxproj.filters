@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Main.cpp" />
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="Collisions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{24319c3a-47ec-4941-80e6-85ecc5bd08df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Snake.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
