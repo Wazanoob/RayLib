@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Main.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+    <ClCompile Include="TextDisplay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{57a333db-e325-47d4-8f41-290f32a99118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDisplay.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

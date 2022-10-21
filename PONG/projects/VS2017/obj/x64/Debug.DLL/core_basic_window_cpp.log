@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cpaya\Documents\ArtFx\Raylib\PONG\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (raylib.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cpaya\Documents\ArtFx\Raylib\PONG\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (Game.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  Main.cpp
+  core_basic_window_cpp.vcxproj -> C:\Users\cpaya\Documents\ArtFx\Raylib\PONG\projects\VS2017\bin\x64\Debug.DLL\Game.exe

@@ -1,0 +1,342 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Le répertoire intermédiaire (C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\\obj\x64\Debug.DLL\) contient des fichiers partagés provenant d'un autre projet (Game.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  raudio.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\stb_vorbis.h(4989,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(144,40): warning C4244: '=' : conversion de 'float' en 'short', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(163,40): warning C4244: '=' : conversion de 'float' en 'char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(1463,47): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(1476,28): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(1478,33): warning C4244: 'initialisation' : conversion de 'float' en 'int8_t', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(1749,35): warning C4244: '=' : conversion de 'uint32_t' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(1784,41): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(2237,41): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(2371,31): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(2569,21): warning C4244: '+=' : conversion de 'float' en 'uint64_t', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_xm.h(2611,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\jar_mod.h(1529,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\raudio.c(781,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\raudio.c(798,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\raudio.c(1858,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\raudio.c(2019,25): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\raudio.c(1977,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  core.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\rlgl.h(1646,5): warning C4090: 'fonction' : qualificateurs 'const' différents
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\dirent.h(114,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1653,23): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1716,28): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1717,28): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1718,28): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1719,28): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1790,26): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1793,13): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1798,26): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1801,13): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1806,26): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1785,19): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1871,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1914,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1981,27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(1983,21): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2028,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2040,25): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2042,23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2049,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2092,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2204,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2277,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2316,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2842,32): warning C4018: '>=' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(2844,37): warning C4018: '>=' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\core.c(4128,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  models.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\tinyobj_loader_c.h(749,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(751,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(986,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(987,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(991,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(1397,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(1402,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(1949,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(1959,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\cgltf.h(2038,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(273,22): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(305,54): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(335,43): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(346,43): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(470,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(534,23): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(535,29): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(543,23): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(544,25): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(568,20): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(559,21): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(560,25): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(576,29): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(586,29): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(587,27): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(609,44): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(611,44): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(612,21): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(618,16): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(619,16): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(620,16): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(601,37): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(602,31): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(603,23): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(604,23): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(605,23): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(606,23): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(670,28): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(671,28): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(695,33): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(669,38): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(805,1): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(853,1): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(953,1): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1284,25): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1286,58): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1288,58): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1290,58): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1150,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1151,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1155,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1165,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1181,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1182,11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1184,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1206,15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1447,38): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1464,20): warning C4244: '*=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1465,20): warning C4244: '*=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1466,20): warning C4244: '*=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1468,39): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1748,33): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1748,49): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1748,65): warning C4244: 'fonction' : conversion de 'double' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\par_shapes.h(1717,30): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(144,35): warning C4305: 'fonction' : troncation de 'double' à 'float'
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(788,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(864,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(999,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1007,27): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1013,27): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1017,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1019,31): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1106,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(957,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(1009,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2459,69): warning C4244: '=' : conversion de 'double' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2460,69): warning C4244: '=' : conversion de 'double' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2461,69): warning C4244: '=' : conversion de 'double' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2462,69): warning C4244: '=' : conversion de 'double' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2898,31): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2935,27): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2971,74): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2971,115): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2971,156): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2975,75): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2975,117): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2975,159): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2982,75): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2982,117): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2982,159): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2846,30): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2848,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2849,9): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chdir. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(2993,9): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chdir. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3176,49): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3191,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3201,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3204,61): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3218,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3221,61): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3235,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3238,61): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3251,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3254,61): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3267,35): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3270,61): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3289,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3109,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3466,76): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3456,35): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3457,49): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3557,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3642,71): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3645,25): warning C4267: '+=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3652,25): warning C4267: '+=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3661,29): warning C4267: '+=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3677,80): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3679,25): warning C4267: '+=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3696,97): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\models.c(3519,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  rglfw.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\context.c(407,10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(120,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(173,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(175,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(177,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(179,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(181,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(183,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(185,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(187,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(189,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(191,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(195,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\init.c(215,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\input.c(441,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\window.c(428,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\window.c(432,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\window.c(436,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_joystick.c(455,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_joystick.c(463,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_joystick.c(559,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_joystick.c(750,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_joystick.c(751,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_monitor.c(104,5): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\external\glfw\src\win32_monitor.c(113,9): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  shapes.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(222,58): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(228,19): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(316,58): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(322,19): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(368,24): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(368,33): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(410,24): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(410,33): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(464,58): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(477,19): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(560,58): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(572,19): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(773,34): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\shapes.c(997,34): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  text.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(948,97): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(948,114): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1142,5): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1216,38): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1217,16): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1218,16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1223,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1263,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1268,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1321,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1333,37): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1431,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1661,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1676,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1684,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1690,5): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1709,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1710,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\text.c(1738,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  textures.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(707,33): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(707,39): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(707,56): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(707,75): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(854,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(873,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1291,70): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1291,76): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1296,61): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1305,104): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1308,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1308,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1309,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1309,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1310,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1311,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1311,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1312,52): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1313,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1313,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1317,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1317,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1318,52): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1319,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1320,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1320,56): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1321,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1321,55): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1322,34): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1322,57): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1332,95): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1332,99): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1332,105): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1414,24): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1414,30): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1414,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1414,66): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1497,44): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1497,70): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1497,86): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1502,63): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1502,109): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1508,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1508,62): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1508,85): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1513,55): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1513,78): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1543,28): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1544,32): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1550,28): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1551,33): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1958,27): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1965,103): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1965,134): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1931,24): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1964,47): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1964,88): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1992,45): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1992,51): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1992,57): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1992,64): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1998,37): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1998,49): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1998,57): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(1998,65): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2015,32): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2015,39): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2015,46): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2016,32): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2016,42): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2016,69): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2017,47): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2017,62): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2017,89): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2018,32): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2018,55): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2018,67): warning C4244: 'fonction' : conversion de 'float' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2247,34): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2248,34): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2249,34): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(2250,34): warning C4244: 'initialisation' : conversion de 'float' en 'unsigned char', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3129,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3402,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3524,29): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3534,33): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3535,33): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3487,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3501,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\textures.c(3730,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  utils.c
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(146,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(147,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(148,24): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(149,27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(150,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(151,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(155,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(156,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(175,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(190,43): warning C4267: 'initialisation' : conversion de 'size_t' en 'unsigned int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(212,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(216,40): warning C4267: 'initialisation' : conversion de 'size_t' en 'unsigned int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(237,26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(251,34): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\src\utils.c(278,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Génération de code en cours...
+     Création de la bibliothèque C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\\bin\x64\Debug.DLL\raylib.lib et de l'objet C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\\bin\x64\Debug.DLL\raylib.exp
+  raylib.vcxproj -> C:\Users\cpaya\Documents\ArtFx\Raylib\SNAKE\projects\VS2017\bin\x64\Debug.DLL\raylib.dll
