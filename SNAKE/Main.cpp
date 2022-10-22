@@ -12,6 +12,7 @@ Vector2 RandomPos();
 
 Texture2D m_wallTexture;
 Apple m_apple;
+Snake m_snake;
 
 const int SCREEN_WIDTH = 800;
 const int SCREEN_HEIGHT = 600;
@@ -23,7 +24,9 @@ int main(int argc, char* argv[])
     SetTargetFPS(60);
 
     Vector2 randomPos = RandomPos();
+
     m_apple = Apple(randomPos.x, randomPos.y, 32);
+    m_snake = Snake(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, 32, 2);
 
 #ifndef Walls
     m_wallTexture = LoadTexture("C:/Users/cpaya/Documents/ArtFx/Raylib/Snake/resources/wall.png");
@@ -40,6 +43,7 @@ int main(int argc, char* argv[])
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
         // Update
+        Update();
 
         // Draw
         BeginDrawing();
@@ -114,12 +118,14 @@ int main(int argc, char* argv[])
 
 void Update()
 {
-
+    m_apple.Update();
+    m_snake.Update();
 }
 
 void Draw()
 {
     m_apple.Draw();
+    m_snake.Draw();
 }
 
 Vector2 RandomPos()
