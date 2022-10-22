@@ -6,22 +6,24 @@ Snake::Snake()
 	m_coordX = 0;
 	m_coordY = 0;
 	m_snakeSize = 32;
+	m_bodyCount = 0;
 
-	m_speedX = 2;
-	m_speedY = 2;
+	m_timerStart = GetTime();
+	m_timerLife = 0.5f;
 
 	//No Movement before Start
 	m_direction = Direction::Default;
 }
 
-Snake::Snake(int x, int y, int size, int speed)
+Snake::Snake(int x, int y, int size, float speed)
 {
 	m_coordX = x;
 	m_coordY = y;
 	m_snakeSize = size;
+	m_bodyCount = 0;
 
-	m_speedX = speed;
-	m_speedY = speed;
+	m_timerStart = GetTime();
+	m_timerLife = (1/ speed);
 
 	//No Movement before Start
 	m_direction = Direction::Default;
@@ -57,8 +59,11 @@ void Snake::Update()
 		}
 		break;
 	case Direction::UP:
-		m_coordY -= m_speedY;
-
+		if (PixelDelay())
+		{
+			m_coordY -= m_snakeSize;
+			m_timerStart = GetTime();
+		}
 		if (IsKeyDown(KEY_LEFT))
 		{
 			m_direction = Direction::LEFT;
@@ -69,8 +74,11 @@ void Snake::Update()
 		}
 		break;
 	case Direction::DOWN:
-		m_coordY += m_speedY;
-
+		if (PixelDelay())
+		{
+			m_coordY += m_snakeSize;
+			m_timerStart = GetTime();
+		}
 		if (IsKeyDown(KEY_LEFT))
 		{
 			m_direction = Direction::LEFT;
@@ -81,8 +89,11 @@ void Snake::Update()
 		}
 		break;
 	case Direction::LEFT:
-		m_coordX -= m_speedX;
-
+		if (PixelDelay())
+		{
+			m_coordX -= m_snakeSize;
+			m_timerStart = GetTime();
+		}
 		if (IsKeyDown(KEY_UP))
 		{
 			m_direction = Direction::UP;
@@ -93,8 +104,11 @@ void Snake::Update()
 		}
 		break;
 	case Direction::RIGHT:
-		m_coordX += m_speedX;
-
+		if (PixelDelay())
+		{
+			m_coordX += m_snakeSize;
+			m_timerStart = GetTime();
+		}
 		if (IsKeyDown(KEY_UP))
 		{
 			m_direction = Direction::UP;
@@ -105,6 +119,8 @@ void Snake::Update()
 		}
 		break;
 	}
+
+
 
 
 	//if (IsKeyDown(KEY_UP))
@@ -151,4 +167,16 @@ void Snake::SetSpeed(int x)
 int Snake::GetWidth() const
 {
 	return 0;
+}
+
+bool Snake::PixelDelay()
+{
+	if (GetTime() - m_timerStart >= m_timerLife)
+	{
+		return true;
+	}
+	else if (GetTime() - m_timerStart < m_timerLife)
+	{
+		return false;
+	}
 }

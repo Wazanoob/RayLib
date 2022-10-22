@@ -18,6 +18,5 @@ private:
 	int m_coordX;
 	int m_coordY;
 	int m_appleSize;
-
 };
 

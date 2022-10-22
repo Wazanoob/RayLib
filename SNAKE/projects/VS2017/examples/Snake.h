@@ -1,6 +1,6 @@
 #pragma once
 
-enum Direction {
+enum class  Direction {
 	RIGHT,
 	DOWN,
 	LEFT,
@@ -13,7 +13,7 @@ class Snake
 {
 public:
 	Snake();
-	Snake(int x, int y, int size, int speed);
+	Snake(int x, int y, int size, float speed);
 	~Snake();
 
 	void Update();
@@ -31,8 +31,12 @@ private:
 	int m_coordY;
 	int m_snakeSize;
 	int m_bodyCount;
-	float m_speedX;
-	float m_speedY;
+
+	float m_timerStart;
+	float m_timerCount;
+	float m_timerLife;
 	Direction m_direction;
+
+	bool PixelDelay();
 };
 
