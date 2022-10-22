@@ -155,6 +155,8 @@ void Snake::Restart()
 {
 	m_direction = Direction::Default;
 
+	m_timerLife = 0.5f;
+	m_bodyCount = 0;
 	m_coordX = 384;
 	m_coordY = 288;
 }
