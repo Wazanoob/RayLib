@@ -41,6 +41,7 @@ private:
 	float m_timerStart;
 	float m_timerLife;
 	Direction m_direction;
+	Direction m_nextDirection;
 	Vector2 m_lastPos;
 
 	bool PixelDelay();

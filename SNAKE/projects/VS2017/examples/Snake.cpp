@@ -13,6 +13,7 @@ Snake::Snake()
 
 	//No Movement before Start
 	m_direction = Direction::Default;
+	m_nextDirection = Direction::Default;
 }
 
 Snake::Snake(int x, int y, int size, float speed)
@@ -27,6 +28,7 @@ Snake::Snake(int x, int y, int size, float speed)
 
 	//No Movement before Start
 	m_direction = Direction::Default;
+	m_nextDirection = Direction::Default;
 }
 
 Snake::~Snake()
@@ -49,81 +51,84 @@ void Snake::Update()
 	case Direction::Default:
 		if (IsKeyDown(KEY_UP))
 		{
-			m_direction = Direction::UP;
+			m_nextDirection = Direction::UP;
 		}
 		else if (IsKeyDown(KEY_DOWN))
 		{
-			m_direction = Direction::DOWN;
+			m_nextDirection = Direction::DOWN;
 		}
 		else if (IsKeyDown(KEY_LEFT))
 		{
-			m_direction = Direction::LEFT;
+			m_nextDirection = Direction::LEFT;
 		}
 		else if (IsKeyDown(KEY_RIGHT))
 		{
-			m_direction = Direction::RIGHT;
+			m_nextDirection = Direction::RIGHT;
 		}
 		break;
 	case Direction::UP:
-		if (PixelDelay())
-		{
-			m_coordY -= m_snakeSize;
-			m_timerStart = GetTime();
-		}
 		if (IsKeyDown(KEY_LEFT))
 		{
-			m_direction = Direction::LEFT;
+			m_nextDirection = Direction::LEFT;
 		}
-		else if (IsKeyDown(KEY_RIGHT))
+		if (IsKeyDown(KEY_RIGHT))
 		{
-			m_direction = Direction::RIGHT;
+			m_nextDirection = Direction::RIGHT;
 		}
 		break;
 	case Direction::DOWN:
-		if (PixelDelay())
-		{
-			m_coordY += m_snakeSize;
-			m_timerStart = GetTime();
-		}
 		if (IsKeyDown(KEY_LEFT))
 		{
-			m_direction = Direction::LEFT;
+			m_nextDirection = Direction::LEFT;
 		}
-		else if (IsKeyDown(KEY_RIGHT))
+		if (IsKeyDown(KEY_RIGHT))
 		{
-			m_direction = Direction::RIGHT;
+			m_nextDirection = Direction::RIGHT;
 		}
 		break;
 	case Direction::LEFT:
-		if (PixelDelay())
-		{
-			m_coordX -= m_snakeSize;
-			m_timerStart = GetTime();
-		}
 		if (IsKeyDown(KEY_UP))
 		{
-			m_direction = Direction::UP;
+			m_nextDirection = Direction::UP;
 		}
-		else if (IsKeyDown(KEY_DOWN))
+		if (IsKeyDown(KEY_DOWN))
 		{
-			m_direction = Direction::DOWN;
+			m_nextDirection = Direction::DOWN;
 		}
 		break;
 	case Direction::RIGHT:
-		if (PixelDelay())
-		{
-			m_coordX += m_snakeSize;
-			m_timerStart = GetTime();
-		}
 		if (IsKeyDown(KEY_UP))
 		{
-			m_direction = Direction::UP;
+			m_nextDirection = Direction::UP;
 		}
-		else if (IsKeyDown(KEY_DOWN))
+		if (IsKeyDown(KEY_DOWN))
 		{
-			m_direction = Direction::DOWN;
+			m_nextDirection = Direction::DOWN;
 		}
 		break;
+	}
+
+	if (PixelDelay())
+	{
+		switch (m_nextDirection)
+		{
+		case Direction::UP:
+			m_coordY -= m_snakeSize;
+			break;
+		case Direction::DOWN:
+			m_coordY += m_snakeSize;
+			break;
+		case Direction::LEFT:
+			m_coordX -= m_snakeSize;
+			break;
+		case Direction::RIGHT:
+			m_coordX += m_snakeSize;
+			break;
+		}
+
+		m_direction = m_nextDirection;
+		m_timerStart = GetTime();
+
 	}
 }
 
@@ -154,6 +159,7 @@ int Snake::GetY() const
 void Snake::Restart()
 {
 	m_direction = Direction::Default;
+	m_nextDirection = Direction::Default;
 
 	m_timerLife = 0.5f;
 	m_bodyCount = 0;
