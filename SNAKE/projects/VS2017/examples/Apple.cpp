@@ -19,13 +19,18 @@ Apple::~Apple()
 {
 }
 
+RectangleI Apple::GetRect()
+{
+	return RectangleI{ m_coordX, m_coordY, m_appleSize, m_appleSize };
+}
+
 void Apple::Update()
 {
 }
 
 void Apple::Draw()
 {
-	DrawRectangle(m_coordX, m_coordY, m_appleSize, m_appleSize, WHITE);
+	DrawRectangle(m_coordX, m_coordY, m_appleSize, m_appleSize, RED);
 }
 
 int Apple::GetX() const
@@ -33,9 +38,15 @@ int Apple::GetX() const
 	return m_coordX;
 }
 
-void Apple::SetX(int x)
+int Apple::GetY() const
 {
-	m_coordX = x;
+	return m_coordY;
+}
+
+void Apple::NextPos(Vector2 newPos)
+{
+	m_coordX = newPos.x;
+	m_coordY = newPos.y;
 }
 
 int Apple::GetWidth() const

@@ -2,6 +2,7 @@
 #include "./projects/VS2017/examples/Apple.h"
 #include "./projects/VS2017/examples/Snake.h"
 #include "./projects/VS2017/examples/Collisions.h"
+#include "./projects/VS2017/examples/TextDisplay.h"
 #include <string>
 
 using namespace std;
@@ -10,12 +11,19 @@ void Update();
 void Draw();
 Vector2 RandomPos();
 
+const int SCREEN_WIDTH = 800;
+const int SCREEN_HEIGHT = 600;
+
+int m_playerPoint = 0;
+int m_result = 0;
+
 Texture2D m_wallTexture;
 Apple m_apple;
 Snake m_snake;
 
-const int SCREEN_WIDTH = 800;
-const int SCREEN_HEIGHT = 600;
+TextDisplay m_playerScoreText = TextDisplay(100, 100, to_string(m_playerPoint), 20, LIGHTGRAY);
+TextDisplay m_outcomeText = TextDisplay(SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 3, "", 40, LIGHTGRAY);
+TextDisplay m_restartText = TextDisplay(SCREEN_WIDTH / 2 - 200, SCREEN_HEIGHT / 2, "", 40, LIGHTGRAY);
 
 int main(int argc, char* argv[])
 {
@@ -26,7 +34,7 @@ int main(int argc, char* argv[])
     Vector2 randomPos = RandomPos();
 
     m_apple = Apple(randomPos.x, randomPos.y, 32);
-    m_snake = Snake(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, 32, 2);
+    m_snake = Snake(384, 288, 32, 2);
 
 #ifndef Walls
     m_wallTexture = LoadTexture("C:/Users/cpaya/Documents/ArtFx/Raylib/Snake/resources/wall.png");
@@ -52,8 +60,10 @@ int main(int argc, char* argv[])
         //DRAW THE WALLS LEL
         for (size_t i = 0; i < numberOfWallsX; i++)
         {
+            //UpperWall
+            int offset = 1;
             int coordX = m_wallTexture.width / (divideTexture);
-            Vector2 newXPos = { coordX * i, m_wallTexture.height / (2 * divideTexture) };
+            Vector2 newXPos = { coordX * i, m_wallTexture.height / (2 * divideTexture) - offset };
             Rectangle m_wallXPos = { newXPos.x, newXPos.y, (m_wallRectangle.width / divideTexture), (m_wallRectangle.height / divideTexture) };
 
             DrawTexturePro(
@@ -64,7 +74,9 @@ int main(int argc, char* argv[])
                 0,
                 WHITE);
 
-            Vector2 newXSecondPos = { coordX * (i + 1), SCREEN_HEIGHT - (m_wallTexture.height / (2 * divideTexture)) };
+            //LowerWall
+            offset = 9;
+            Vector2 newXSecondPos = { coordX * (i + 1), SCREEN_HEIGHT - (m_wallTexture.height / (2 * divideTexture)) + offset};
             Rectangle m_wallXSecondPos = { newXSecondPos.x, newXSecondPos.y, (m_wallRectangle.width / divideTexture), (m_wallRectangle.height / divideTexture) };
 
             DrawTexturePro(
@@ -77,8 +89,9 @@ int main(int argc, char* argv[])
         }
         for (size_t i = 0; i < numberOfWallsY; i++)
         {
+            int offset = 3;
             int coordY = m_wallTexture.height / (divideTexture);
-            Vector2 newYPos = { m_wallTexture.width / (2 * divideTexture), coordY * (i + 1) };
+            Vector2 newYPos = { (m_wallTexture.width / (2 * divideTexture)) - offset, coordY * (i + 1) };
             Rectangle m_wallYPos = { newYPos.x, newYPos.y, (m_wallRectangle.width / divideTexture), (m_wallRectangle.height / divideTexture) };
 
             DrawTexturePro(
@@ -89,7 +102,7 @@ int main(int argc, char* argv[])
                 0,
                 WHITE);
 
-            Vector2 newXSecondPos = { SCREEN_WIDTH - (m_wallTexture.width / (2 * divideTexture)), coordY * i };
+            Vector2 newXSecondPos = { SCREEN_WIDTH - (m_wallTexture.width / (2 * divideTexture)) + offset, coordY * i };
             Rectangle m_wallXSecondPos = { newXSecondPos.x, newXSecondPos.y, (m_wallRectangle.width / divideTexture), (m_wallRectangle.height / divideTexture) };
 
             DrawTexturePro(
@@ -104,6 +117,7 @@ int main(int argc, char* argv[])
         Draw();
 
         EndDrawing();
+
     }
 
     // De-Initialization
@@ -118,20 +132,73 @@ int main(int argc, char* argv[])
 
 void Update()
 {
-    m_apple.Update();
-    m_snake.Update();
+    if (m_result == 0)
+    {
+        m_apple.Update();
+        m_snake.Update();
+
+        //RectangleI appleRect = m_apple.GetRect();
+        //RectangleI snakeRect = m_snake.GetRect();
+
+        //bool colliding = Collisions::AABBCollision(appleRect, snakeRect);
+
+        if (m_snake.GetX() == m_apple.GetX() && m_snake.GetY() == m_apple.GetY())
+        {
+            Vector2 randomPos = RandomPos();
+            m_apple.NextPos(randomPos);
+
+            ++m_playerPoint;
+
+            m_snake.AddBody();
+            m_snake.SetSpeed(1.25f);
+
+            m_playerScoreText.SetText(to_string(m_playerPoint));
+        }
+
+        //Points
+        if (m_snake.GetX() < 32 ||
+            m_snake.GetX() >= (SCREEN_WIDTH - 32) ||
+            m_snake.GetY() < 32 ||
+            m_snake.GetY() >= SCREEN_HEIGHT - 32)
+        {
+            m_outcomeText.SetText("Defeat");
+            m_result = 1;
+        }
+    }
+    else
+    {
+        m_restartText.SetText("Press R to restart");
+
+        if (IsKeyDown(KEY_R))
+        {
+            //Restart the Game;
+            m_restartText.~TextDisplay();
+            m_outcomeText.~TextDisplay();
+            m_playerPoint = 0;
+            m_snake.Restart();
+
+            Vector2 randomPos = RandomPos();
+            m_apple.NextPos(randomPos);
+
+            m_result = 0;
+        }
+    }
 }
 
 void Draw()
 {
+    m_playerScoreText.Draw();
     m_apple.Draw();
     m_snake.Draw();
+    m_outcomeText.Draw();
+    m_restartText.Draw();
 }
 
 Vector2 RandomPos()
 {
-    int x = GetRandomValue(16, 750);
-    int y = GetRandomValue(16, 350);
+    int x = GetRandomValue(1, 23) * 32;
+    int y = GetRandomValue(1, 17) * 32;
+
     Vector2 newPos = { x, y };
     return newPos;
 }

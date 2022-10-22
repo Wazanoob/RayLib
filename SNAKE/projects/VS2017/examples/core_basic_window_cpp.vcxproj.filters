@@ -5,6 +5,7 @@
     <ClCompile Include="Apple.cpp" />
     <ClCompile Include="Snake.cpp" />
     <ClCompile Include="Collisions.cpp" />
+    <ClCompile Include="TextDisplay.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Headers">
@@ -19,6 +20,9 @@
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Collisions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDisplay.h">
       <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>

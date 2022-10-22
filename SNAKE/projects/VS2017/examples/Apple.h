@@ -1,4 +1,6 @@
 #pragma once
+#include "Collisions.h"
+
 class Apple
 {
 public:
@@ -6,11 +8,14 @@ public:
 	Apple(int x, int y, int size);
 	~Apple();
 
+	RectangleI GetRect();
+
 	void Update();
 	void Draw();
 
 	int GetX() const;
-	void SetX(int x);
+	int GetY() const;
+	void NextPos(Vector2 newPos);
 
 	int GetWidth() const;
 

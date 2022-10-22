@@ -33,6 +33,11 @@ Snake::~Snake()
 {
 }
 
+RectangleI Snake::GetRect()
+{
+	return RectangleI{ m_coordX, m_coordY, m_snakeSize, m_snakeSize };
+}
+
 void Snake::Update()
 {
 	int screenHeight = GetScreenHeight() - 16;
@@ -40,6 +45,7 @@ void Snake::Update()
 
 	switch (m_direction)
 	{
+	//Should add Sprites here :((((
 	case Direction::Default:
 		if (IsKeyDown(KEY_UP))
 		{
@@ -119,49 +125,48 @@ void Snake::Update()
 		}
 		break;
 	}
-
-
-
-
-	//if (IsKeyDown(KEY_UP))
-	//{
-	//	m_coordY -= m_speedY;
-	//}
-	//else if (IsKeyDown(KEY_DOWN))
-	//{
-	//	m_coordY += m_speedY;
-	//}
-	//else if (IsKeyDown(KEY_LEFT))
-	//{
-	//	m_coordX -= m_speedX;
-	//}
-	//else if (IsKeyDown(KEY_RIGHT))
-	//{
-	//	m_coordX += m_speedX;
-	//}
 }
 
 void Snake::Draw()
 {
 	DrawRectangle(m_coordX, m_coordY, m_snakeSize, m_snakeSize, WHITE);
+
+	if (m_bodyCount > 0)
+	{
+		for (size_t i = 0; i < m_bodyCount; i++)
+		{
+			//WIP
+			DrawRectangle(m_lastPos.x, m_lastPos.y, m_snakeSize, m_snakeSize, GREEN);
+		}
+	}
 }
 
 int Snake::GetX() const
 {
-	return 0;
+	return m_coordX;
 }
 
-void Snake::SetX(int x)
+int Snake::GetY() const
 {
+	return m_coordY;
 }
 
-int Snake::GetSpeed() const
+void Snake::Restart()
 {
-	return 0;
+	m_direction = Direction::Default;
+
+	m_coordX = 384;
+	m_coordY = 288;
 }
 
-void Snake::SetSpeed(int x)
+void Snake::AddBody()
 {
+	++m_bodyCount;
+}
+
+void Snake::SetSpeed(float addSpeed)
+{
+	m_timerLife /= addSpeed;
 }
 
 int Snake::GetWidth() const
@@ -173,6 +178,9 @@ bool Snake::PixelDelay()
 {
 	if (GetTime() - m_timerStart >= m_timerLife)
 	{
+		m_lastPos.x = m_coordX;
+		m_lastPos.y = m_coordY;
+
 		return true;
 	}
 	else if (GetTime() - m_timerStart < m_timerLife)

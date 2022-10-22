@@ -1,4 +1,5 @@
 #pragma once
+#include "Collisions.h"
 
 enum class  Direction {
 	RIGHT,
@@ -16,13 +17,17 @@ public:
 	Snake(int x, int y, int size, float speed);
 	~Snake();
 
+	RectangleI GetRect();
+
 	void Update();
 	void Draw();
 
 	int GetX() const;
-	void SetX(int x);
-	int GetSpeed() const;
-	void SetSpeed(int x);
+	int GetY() const;
+	void Restart();
+
+	void AddBody();
+	void SetSpeed(float x);
 
 	int GetWidth() const;
 
@@ -31,11 +36,12 @@ private:
 	int m_coordY;
 	int m_snakeSize;
 	int m_bodyCount;
+	float m_speed;
 
 	float m_timerStart;
-	float m_timerCount;
 	float m_timerLife;
 	Direction m_direction;
+	Vector2 m_lastPos;
 
 	bool PixelDelay();
 };
